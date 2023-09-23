@@ -9,7 +9,7 @@ const Navbar = () => {
     }}>
     
         <ul className="navbar-list" >
-        <li>
+        <li >
             <NavLink
               className="navbar-link"
               
@@ -48,7 +48,7 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               
-              to="/teams">
+              to="/post">
               Team
             </NavLink>
           </li>

@@ -1,8 +1,7 @@
 .navbar-list {
+    height: 25px;
     display: flex;
     gap: 5rem;
-    
-
 }
 li {
     list-style: none;
@@ -13,7 +12,7 @@ li {
           &:visited {
             display: inline-block;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 18px;
           
             color: black;
             transition: color 0.3s linear;

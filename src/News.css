@@ -17,9 +17,9 @@ article {
     margin: 10px;
     border: 1px solid #ccc;
 }
-article img {
+article img ,iframe{
     width: 100%;
-    height: auto;
+    height: 20rem;
     margin-bottom: 10px;
 }
 a {

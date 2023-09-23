@@ -1,22 +1,18 @@
 import React from 'react'
-import {  FaInstagram, FaLinkedin, FaTwitter,  } from "react-icons/fa";
-
-import "./footer.css";
-const footer = () => {
+import "./footer.css"
+import {  FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+const Footer = () => {
   return (
     <div className='footer'>
-      <div className='sub'>
-        <div className='sub-sub-footer'>
-          {/* first column */}
-        <div className="footer-about">
-            <h3>HealthCareAi</h3>
+      <div className='left'>
+        <div className='about'>
+        <h3>HealthCareAi</h3>
             <p>
               @{new Date().getFullYear()} HealthCareAi.<br/> All Rights Reserved
             </p> 
-          </div>
-          {/* second column */}
-          <div className="footer-subscribe">
-            <h3>Subscribe to get important updates</h3>
+        </div>
+        <div className='suscribe'>
+        <h3>Subscribe to get important updates</h3>
             <form action="#">
               <input
                 type="email"
@@ -26,47 +22,49 @@ const footer = () => {
               />
               <input type="submit" value="Subscribe" />
             </form>
-          </div>
-          {/* 3rd column */}
-          <div className="footer-social">
+        </div>
+      </div>
+      {/* right portion */}
+      <div className='right'>
+        {/* first child */}
+      <div className="footer-social">
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
-              <a
+              <a rel="noreferrer"
                   href="https://twitter.com/_Clinical_AI_/"
-                  target="_blank" rel="noreferrer">
+                  target="_blank">
                   <FaTwitter className="icons" />
                 </a>
               </div>
               <div>
-              <a
+              <a rel="noreferrer"
                   href="https://www.instagram.com/"
-                  target="_blank" rel="noreferrer">
+                  target="_blank">
                   <FaInstagram className="icons" />
                 </a>
               </div>
               <div>
-                <a
+                <a rel="noreferrer"
                   href="https://www.linkedin.com/company/clinical-ai-assistance"
-                  target="_blank" rel="noreferrer">
-                  <FaLinkedin className="icons" />
+                  target="_blank">
+                  <FaLinkedin className="icons"  />
                 </a>
               </div>
             </div>
           </div>
-
-          {/* 4th column */}
-          <div className="footer-contact">
+         {/* second child */}
+         <div className="footer-contact">
             <h3>Contact Us</h3>
             <p>Foundation For Innovators In Science And Technology(FIIST), <br/>
 Office- 7, 5th Floor, Block 9<br/>
 Indian Institute of Technology, Patna<br/>
 Bihta, Bihar 801106 India</p>
           </div>
-          {/* 5th column */}
-          <div className="footer-contact">
+          {/* #rd child */}
+          <div className="footer-sponsor">
             <h3>Sponsored By</h3>
-            <div>
+            <div className='gap'>
               <div className="microsoft">
                  <img src=".\images\Microsoft.jpeg" alt="" />
               </div>
@@ -77,8 +75,8 @@ Bihta, Bihar 801106 India</p>
           </div>
         </div>
       </div>
-    </div>
+   
   )
 }
 
-export default footer
+export default Footer

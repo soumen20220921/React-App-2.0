@@ -1,5 +1,5 @@
 .outer{
-  height: 550px;
+  height: 55rem;
   width: 100%;
   background-color: lightblue;
   display: flex;
@@ -7,15 +7,15 @@
   gap: 15rem;
 }
 .text{
-  height: 450px;
-  width: 490px;
+  height: 45rem;
+  width: 49rem;
   /* background-color: blueviolet; */
   justify-content: center;
   margin-top: 2.5rem;
 }
 .img{
-  height: 450px;
-  width: 27%;
+  height: 14rem;
+  width: 50rem;
   /* background-color: blue; */
   justify-content: center;
   margin-top: 2.5rem;
@@ -77,4 +77,96 @@
     font-size: 1.8rem;
     
   }
+}
+@media(max-width: 1600px){
+  .outer{
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+  }
+}
+@media(max-width: 1668px){
+  .outer{
+    height: 55rem;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content:center;
+    gap: 15rem;
+  }
+}
+@media(max-height: 786px){
+  .outer{
+    height: 50rem;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+  }
+  .img{
+  height: 12rem;
+  width: 50rem;
+  /* background-color: blue; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.text{
+  height: 45rem;
+  width: 49rem;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+}
+@media(max-height: 800px){
+  .outer{
+    height: 50rem;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+  }
+  .img{
+  height: 12rem;
+  width: 50rem;
+  /* background-color: blue; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.text{
+  height: 45rem;
+  width: 49rem;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}}
+@media(max-height: 900px){
+  .outer{
+    height: 50rem;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+  }
+  .img{
+  height: 12rem;
+  width: 50rem;
+  /* background-color: blue; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.text{
+  height: 45rem;
+  width: 49rem;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  margin-top: 1.2rem;
+}
 }
