@@ -1,0 +1,75 @@
+.content{
+    height: 70rem;
+    width: 100%;
+    background-color: rgb(164, 130, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+.no1{
+    height: 60rem;
+    width: 30rem;
+    
+ 
+}
+/* .no1{
+    background-color: aqua;
+} */
+.no2{
+    background-color: rgb(52, 84, 84);
+}
+.no3{
+    background-color: rgb(71, 44, 118);
+}
+.innerbox1{
+    height: 15rem;
+    width: inherit;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox2{
+    height: 35rem;
+    width: inherit;
+    background-color:white;
+    text-align: center;
+}
+.innerbox3{
+    height: 10rem;
+    width: inherit;
+    background-color: white;
+    
+}
+.innerbox1 img{
+height: 13rem;
+width: 13rem;
+border: 2px solid white;
+border-radius: 50%;
+/* background-color: crimson; */
+}
+.innerbox2 h1{
+    font-size: 5rem;
+    padding: 1rem;
+
+}
+.innerbox2 h3{
+    color: black;
+    
+}
+.innerbox2 p{
+    background-color: none;
+    padding: 0 5rem;
+    color: crimson;
+}
+.innerbox3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerbox3 button{
+    background-color: crimson;
+}
+

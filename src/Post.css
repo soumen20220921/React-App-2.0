@@ -1,7 +1,7 @@
 .post{
     height: 60rem;
     width: 100%;
-    background-color:lightblue;
+    background-color:#29e4c5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,7 @@
 }
  h3{
    padding-top: 2rem;
+ 
 }
 .social{
     

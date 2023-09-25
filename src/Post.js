@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Post.css";
-import { FaLinkedin, FaTwitter, FaInternetExplorer} from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaChrome} from "react-icons/fa";
 const Post = () => {
   return (
     <div>
@@ -9,7 +9,10 @@ const Post = () => {
       </div>
       <div className='post'>
         <div className='member'>
-          <img src=".\images\Abhisek Tiwari.jpeg" alt="" />
+        <a href="https://abhisektiwari.github.io/" target="_blank" rel="noreferrer">
+        <img src=".\images\Abhisek Tiwari.jpeg" alt="" />
+  
+      </a>
           <div className='des'>
             <h3>
               Abhisek Tiwari
@@ -20,7 +23,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -42,7 +45,9 @@ const Post = () => {
           </div>
         </div>
         <div className='member'>
-          <img src=".\images\Sarbajeet Tiwari.jpeg" alt="" />
+        <a href="https://www.linkedin.com/in/sarbjeet-tiwari-b42977268/" target="_blank" rel="noreferrer">
+        <img src=".\images\Sarbajeet Tiwari.jpeg" alt="" />
+      </a>
           <div className='des'>
             <h3>
               Sarbajeet Tiwari
@@ -51,9 +56,9 @@ const Post = () => {
               <div className="footer-social--icons">
               <div>
                   <a rel="noreferrer"
-                    href="https://abhisektiwari.github.io/"
+                    href="https://www.linkedin.com/in/sarbjeet-tiwari-b42977268/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -65,7 +70,7 @@ const Post = () => {
                 </div>
                 <div>
                   <a rel="noreferrer"
-                    href="https://www.linkedin.com/in/abhisektiwari/"
+                    href="https://www.linkedin.com/in/sarbjeet-tiwari-b42977268/"
                     target="_blank">
                     <FaLinkedin className="icons" />
                   </a>
@@ -91,7 +96,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -124,7 +129,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -157,7 +162,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -195,7 +200,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -228,7 +233,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -266,7 +271,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -299,7 +304,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -333,7 +338,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -368,7 +373,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -401,7 +406,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -439,7 +444,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -472,7 +477,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -507,7 +512,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>
@@ -540,7 +545,7 @@ const Post = () => {
                   <a rel="noreferrer"
                     href="https://abhisektiwari.github.io/"
                     target="_blank">
-                    <FaInternetExplorer className="icons" />
+                    <FaChrome className="icons" />
                   </a>
                 </div>
                 <div>

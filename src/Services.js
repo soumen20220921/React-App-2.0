@@ -28,7 +28,7 @@ const Services = () => {
             <img src=".\images\dataset.png" alt="" />
             <div className="button">
             <Button className="btn hireme-btn">
-            <NavLink to="/"> USE </NavLink>
+            <NavLink to="/dataset"> Explore </NavLink>
           </Button>
           <Button className="btn hireme-btn">
             <NavLink to="/"> Access </NavLink>
@@ -41,7 +41,7 @@ const Services = () => {
             <img src="./images/framework.png" alt="" />
             <div className="button">
             <Button className="btn hireme-btn">
-            <NavLink to="/contact"> USE </NavLink>
+            <NavLink to="/contact"> Explore </NavLink>
           </Button>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> Access </NavLink>
@@ -53,7 +53,7 @@ const Services = () => {
             <img src=".\images\clinik2.jpg" alt="" />
             <div className="button">
             <Button className="btn hireme-btn">
-            <NavLink to="/contact"> USE </NavLink>
+            <NavLink to="/contact"> Explore </NavLink>
           </Button>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> REGISTER </NavLink>
@@ -65,7 +65,7 @@ const Services = () => {
             <img src=".\images\mentorship.jpg" alt="" />
             <div className="button">
             <Button className="btn hireme-btn">
-            <NavLink to="/contact"> USE </NavLink>
+            <NavLink to="/contact"> Explore </NavLink>
           </Button>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> REGISTER </NavLink>

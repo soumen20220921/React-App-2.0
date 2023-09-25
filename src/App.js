@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import {  Routes, Route } from "react-router-dom";
 import Getstarted from "./getStarted";
 import Services from "./Services";
+import DataSet from "./DataSet";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Header />
       <Routes>
       <Route path="/post" element={<Post />} />
+      <Route path="/DataSet" element={<DataSet />} />
       <Route path="/" element={<Home />} />
       <Route path="/wtwy" element={<Wtwy />} />
       <Route path="/heassistant" element={<HeAssistant />} />
