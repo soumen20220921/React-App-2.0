@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Post.css";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaInternetExplorer} from "react-icons/fa";
 const Post = () => {
   return (
     <div>
       <div className='header'>
-        <h1>Founder</h1>
+        <h1>Founders</h1>
       </div>
       <div className='post'>
         <div className='member'>
@@ -16,7 +16,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -43,7 +49,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -64,7 +76,7 @@ const Post = () => {
         </div>
       </div>
       <div className='header'>
-        <h1>Mentor</h1>
+        <h1>Mentors</h1>
       </div>
       <div className='post'>
         <div className='member'>
@@ -75,7 +87,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -102,7 +120,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -129,7 +153,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -161,7 +191,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -188,7 +224,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -220,7 +262,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -247,7 +295,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -275,7 +329,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -304,7 +364,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -331,7 +397,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -363,7 +435,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -390,7 +468,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -419,7 +503,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"
@@ -446,7 +536,13 @@ const Post = () => {
             </h3>
             <div className='social'>
               <div className="footer-social--icons">
-
+              <div>
+                  <a rel="noreferrer"
+                    href="https://abhisektiwari.github.io/"
+                    target="_blank">
+                    <FaInternetExplorer className="icons" />
+                  </a>
+                </div>
                 <div>
                   <a rel="noreferrer"
                     href="https://www.instagram.com/"

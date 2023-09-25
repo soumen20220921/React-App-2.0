@@ -19,7 +19,7 @@ const HeroSection = () => {
           </button>
         </div>
         <div className='img'>
-          <img className='img2' src=".\images\online Dr. consultant.webp" alt="" />
+          <img className='img2' src=".\images\hero2-removebg-preview.png" alt="" />
         </div>
     </div>
     </>
