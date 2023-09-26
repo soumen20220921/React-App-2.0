@@ -49,7 +49,7 @@
     color: #fff;
     cursor: pointer;
     font-size: 2.4rem;
-    position: relative;
+    /* position: relative; */
 }
 a {
     font-size: small;
@@ -108,14 +108,17 @@ h3 {
     padding: 1.4rem 2.2rem;
     text-transform: uppercase;
   }
-p {
+.p1 {
     color:whitesmoke ;
-    opacity: .7;
+    /* opacity: .7; */
     font-size: 1.65rem;
     line-height: 1.5;
     margin-top: 1rem;
     font-weight:400;
+
   }
+
+  
   @media(max-width: 1668px){
     .right{
         height: 250px;

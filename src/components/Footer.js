@@ -7,9 +7,9 @@ const Footer = () => {
       <div className='left'>
         <div className='about'>
         <h3>HealthCareAi</h3>
-            <p>
-              @{new Date().getFullYear()} HealthCareAi.<br/> All Rights Reserved
-            </p> 
+            <div className='p1'>
+                @{new Date().getFullYear()} HealthCareAi.<br/> All Rights Reserved
+            </div>
         </div>
         <div className='suscribe'>
         <h3>Subscribe to get important updates</h3>
@@ -56,10 +56,10 @@ const Footer = () => {
          {/* second child */}
          <div className="footer-contact">
             <h3>Contact Us</h3>
-            <p>Foundation For Innovators In Science And Technology(FIIST), <br/>
+            <div className='p1'>Foundation For Innovators In Science And Technology(FIIST), <br/>
 Office- 7, 5th Floor, Block 9<br/>
 Indian Institute of Technology, Patna<br/>
-Bihta, Bihar 801106 India</p>
+Bihta, Bihar 801106 India</div>
           </div>
           {/* #rd child */}
           <div className="footer-sponsor">
